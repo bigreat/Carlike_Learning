@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfe25b41-7f2e-416a-a63b-e6dc7424e1b6" name="Default Changelist" comment="Add URP">
+    <list default="true" id="dfe25b41-7f2e-416a-a63b-e6dc7424e1b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CatLike/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CatLike/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Basic.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Basic.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Point.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Point.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +29,16 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="631a46b5-8865-47b8-8cd9-ffbadf319c7f" />
+        <option name="url" value="git@github.com:bigreat/Carlike_Learning.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0AB0785-3DB9-42D2-9BA8-27338FDA0F7A/56/436dd614/ComputeBuffer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Demo/unity_-catlike/CatLike/Assets/Basic.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -49,8 +49,9 @@
       <option value="$PROJECT_DIR$/Assets/Shaders/FractalGPU.shader" />
       <option value="$PROJECT_DIR$/Assets/Shaders/NewComputeShader.compute" />
       <option value="$PROJECT_DIR$/Assets/Prefabs/Point/Pointt Surface.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Graph.cs" />
       <option value="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Graph.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1skDoIjxwOP8l5iCpdDxnpjx7C4" />
@@ -104,6 +105,7 @@
       <workItem from="1627544173691" duration="17218000" />
       <workItem from="1627629743150" duration="2477000" />
       <workItem from="1627873301267" duration="16281000" />
+      <workItem from="1627901749622" duration="4862000" />
     </task>
     <task id="LOCAL-00001" summary="add a script">
       <created>1621407934798</created>
@@ -200,5 +202,24 @@
     <MESSAGE value="project setting" />
     <MESSAGE value="Add URP" />
     <option name="LAST_COMMIT_MESSAGE" value="Add URP" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Graph.cs</url>
+          <line>28</line>
+          <properties documentPath="D:\Demo\Carlike_Learning\CatLike\Assets\Scripts\Graph.cs" initialLine="28" containingFunctionPresentation="method 'Awake'">
+            <startOffsets>
+              <option value="824" />
+            </startOffsets>
+            <endOffsets>
+              <option value="849" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
