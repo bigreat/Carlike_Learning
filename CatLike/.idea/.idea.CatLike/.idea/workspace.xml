@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfe25b41-7f2e-416a-a63b-e6dc7424e1b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs.meta" afterDir="false" />
+    <list default="true" id="dfe25b41-7f2e-416a-a63b-e6dc7424e1b6" name="Default Changelist" comment="Mathematical Surfaces">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CatLike/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CatLike/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Point URP.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Point URP.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Basic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Basic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scenes/Basic.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0AB0785-3DB9-42D2-9BA8-27338FDA0F7A/56/436dd614/ComputeBuffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -50,8 +55,8 @@
       <option value="$PROJECT_DIR$/Assets/Shaders/NewComputeShader.compute" />
       <option value="$PROJECT_DIR$/Assets/Prefabs/Point/Pointt Surface.shader" />
       <option value="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Graph.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1skDoIjxwOP8l5iCpdDxnpjx7C4" />
@@ -80,10 +85,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7120">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="7120" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -105,7 +110,7 @@
       <workItem from="1627544173691" duration="17218000" />
       <workItem from="1627629743150" duration="2477000" />
       <workItem from="1627873301267" duration="16281000" />
-      <workItem from="1627901749622" duration="4862000" />
+      <workItem from="1627901749622" duration="15226000" />
     </task>
     <task id="LOCAL-00001" summary="add a script">
       <created>1621407934798</created>
@@ -170,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627888359607</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mathematical Surfaces">
+      <created>1627987879715</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627987879715</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,23 +213,24 @@
     <MESSAGE value="v5" />
     <MESSAGE value="project setting" />
     <MESSAGE value="Add URP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add URP" />
+    <MESSAGE value="Mathematical Surfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mathematical Surfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Graph.cs</url>
-          <line>28</line>
-          <properties documentPath="D:\Demo\Carlike_Learning\CatLike\Assets\Scripts\Graph.cs" initialLine="28" containingFunctionPresentation="method 'Awake'">
+          <line>23</line>
+          <properties documentPath="D:\Demo\Carlike_Learning\CatLike\Assets\Scripts\Graph.cs" initialLine="23" containingFunctionPresentation="method 'Awake'">
             <startOffsets>
-              <option value="824" />
+              <option value="604" />
             </startOffsets>
             <endOffsets>
-              <option value="849" />
+              <option value="605" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
