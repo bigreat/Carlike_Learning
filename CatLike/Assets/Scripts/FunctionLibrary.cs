@@ -1,5 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using static UnityEngine.Mathf;
+using Random = UnityEngine.Random;
+
 public static class FunctionLibrary
 {
     public delegate Vector3 Function(float u, float v, float t);
@@ -12,8 +15,25 @@ public static class FunctionLibrary
         Torus,
     }
 
+    public static int FunctionCount => Enum.GetValues(typeof(FunctionName)).Length;
+
     private static Function[] functions = { Wave, MultiWave, Ripple,Sphere,Torus};
 
+    public static FunctionName GetNextFunctionName(FunctionName name)
+    {
+        return (int)name < FunctionCount - 1 ? name + 1 : 0;
+    }
+
+    public static FunctionName GetRandomFunctionName(FunctionName name)
+    {
+        var res = (FunctionName)Random.Range(1, FunctionCount - 1);
+        return res == name ? 0 : res;
+    }
+
+    public static Vector3 Morph(float u, float v, float t, Function form, Function to, float progress)
+    {
+        return Vector3.LerpUnclamped(form(u, v, t), to(u, v, t), SmoothStep(0f, 1f, progress));
+    }
     public static Function GetFunction(FunctionName name)
     {
         return functions[(int)name];
