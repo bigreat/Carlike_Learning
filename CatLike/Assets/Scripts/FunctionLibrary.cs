@@ -34,10 +34,7 @@ public static class FunctionLibrary
     {
         return Vector3.LerpUnclamped(form(u, v, t), to(u, v, t), SmoothStep(0f, 1f, progress));
     }
-    public static Function GetFunction(FunctionName name)
-    {
-        return functions[(int)name];
-    }
+    public static Function GetFunction(FunctionName name) => functions[(int)name];
     
     public static Vector3 Wave(float u, float v,float t)
     {

@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfe25b41-7f2e-416a-a63b-e6dc7424e1b6" name="Default Changelist" comment="profiler and TMP">
+    <list default="true" id="dfe25b41-7f2e-416a-a63b-e6dc7424e1b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CatLike/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CatLike/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Point URP.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Point URP.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Basic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Basic.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.compute" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.compute" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GPUGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GPUGraph.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,8 @@
     <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scenes/Basic.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPUGraph.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scenes/Basic.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scenes/Basic.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scripts/FunctionLibrary.compute" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -58,13 +58,13 @@
       <option value="$PROJECT_DIR$/Assets/Shaders/NewComputeShader.compute" />
       <option value="$PROJECT_DIR$/Assets/Prefabs/Point/Pointt Surface.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FrameRateCounter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Graph.cs" />
       <option value="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader" />
       <option value="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface GPU.shader" />
       <option value="$PROJECT_DIR$/Assets/Materials/PointGPU.hlsl" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.compute" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GPUGraph.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.compute" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1skDoIjxwOP8l5iCpdDxnpjx7C4" />
@@ -120,7 +120,7 @@
       <workItem from="1627544173691" duration="17218000" />
       <workItem from="1627629743150" duration="2477000" />
       <workItem from="1627873301267" duration="16281000" />
-      <workItem from="1627901749622" duration="53806000" />
+      <workItem from="1627901749622" duration="59102000" />
     </task>
     <task id="LOCAL-00001" summary="add a script">
       <created>1621407934798</created>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628238514501</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="compute shader">
+      <created>1628389610091</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628389610091</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +247,7 @@
     <MESSAGE value="Mathematical Surfaces" />
     <MESSAGE value="Mathematical Surfaces -second part" />
     <MESSAGE value="profiler and TMP" />
-    <option name="LAST_COMMIT_MESSAGE" value="profiler and TMP" />
+    <MESSAGE value="compute shader" />
+    <option name="LAST_COMMIT_MESSAGE" value="compute shader" />
   </component>
 </project>

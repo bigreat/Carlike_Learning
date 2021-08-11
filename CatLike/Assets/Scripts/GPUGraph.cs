@@ -27,7 +27,7 @@ public class GPUGraph : MonoBehaviour
     
     private float duration;
     private bool transitioning;
-    private FunctionLibrary.FunctionName transitionFunxtion;
+    private FunctionLibrary.FunctionName TransitionFunction;
 
     private ComputeBuffer postionBuffer;
 
@@ -35,7 +35,8 @@ public class GPUGraph : MonoBehaviour
         positionsId = Shader.PropertyToID("_Positions"),
         resolutionId = Shader.PropertyToID("_Resolution"),
         stepId = Shader.PropertyToID("_Step"),
-        timeId = Shader.PropertyToID("_Time");
+        timeId = Shader.PropertyToID("_Time"),
+        transitionProgressId = Shader.PropertyToID("_TransitionProgress");
 
     void UpdateFunctionOnGPU()
     {
@@ -43,7 +44,11 @@ public class GPUGraph : MonoBehaviour
         computeShader.SetInt(resolutionId,resolution);
         computeShader.SetFloat(stepId,step);
         computeShader.SetFloat(timeId,Time.time);
-        var kernelIndex = (int)function;
+        if (transitioning)
+        {
+            computeShader.SetFloat(transitionProgressId, Mathf.SmoothStep(0f, 1f, duration / transitionDuration));
+        }
+        var kernelIndex = (int)function + (int)(transitioning ? TransitionFunction : function) * FunctionLibrary.FunctionCount;
         computeShader.SetBuffer(kernelIndex,positionsId,postionBuffer);
         int groups = Mathf.CeilToInt(resolution / 8f);
         computeShader.Dispatch(kernelIndex, groups, groups, 1);
@@ -72,7 +77,7 @@ public class GPUGraph : MonoBehaviour
         {
             duration -= functionDuration;
             transitioning = true;
-            transitionFunxtion = function;
+            TransitionFunction = function;
             PickNextFunction();
         }
 
