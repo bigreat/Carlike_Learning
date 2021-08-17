@@ -71,6 +71,10 @@ public class Fractal : MonoBehaviour
     private FractalPart[][] Parts;
     private Matrix4x4[][] Matrices;
     private ComputeBuffer[] MatricesBuffers;
+
+    private static readonly int MatricesId = Shader.PropertyToID("_Matrices");
+    private static MaterialPropertyBlock propertyBlock;
+    
     private void OnEnable()
     {
         Parts = new FractalPart[depth][];
@@ -95,6 +99,8 @@ public class Fractal : MonoBehaviour
                 }
             }
         }
+        
+        propertyBlock ??= new MaterialPropertyBlock();
     }
 
     private void Update()
@@ -102,10 +108,12 @@ public class Fractal : MonoBehaviour
         float spinAngleDelta = 22.5f * Time.deltaTime;
         FractalPart root = Parts[0][0];
         root.spinAngle += spinAngleDelta;
-        root.worldRotation = root.rot * Quaternion.Euler(0,root.spinAngle,0);
+        root.worldRotation = transform.rotation * root.rot * Quaternion.Euler(0,root.spinAngle,0);
+        root.worldPosition = transform.position;
         Parts[0][0] = root;
-        Matrices[0][0] = Matrix4x4.TRS(root.worldPosition,root.worldRotation,Vector3.one);
-        float scale = 1;
+        float objectScale = transform.lossyScale.x;
+        Matrices[0][0] = Matrix4x4.TRS(root.worldPosition,root.worldRotation, objectScale * Vector3.one);
+        float scale = objectScale;
         for (int i = 1; i < Parts.Length; i++)
         {
             scale *= 0.5f;
@@ -123,10 +131,13 @@ public class Fractal : MonoBehaviour
                 levelMatrices[j] = Matrix4x4.TRS(part.worldPosition,part.worldRotation,scale * Vector3.one);
             }
         }
-
+        var bound = new Bounds(root.worldPosition, 3f * objectScale * Vector3.one);
         for (int i = 0; i < MatricesBuffers.Length; i++)
         {
-            MatricesBuffers[i].SetData(Matrices[i]);
+            ComputeBuffer buffer = MatricesBuffers[i];
+            buffer.SetData(Matrices[i]);
+            propertyBlock.SetBuffer(MatricesId, buffer);
+            Graphics.DrawMeshInstancedProcedural(m_Mesh, 0, m_Material, bound,buffer.count,propertyBlock);
         }
     }
 

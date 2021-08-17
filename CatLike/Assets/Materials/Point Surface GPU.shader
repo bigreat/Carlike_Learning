@@ -7,9 +7,9 @@ Shader "Graph/Point Surface GPU"{
         #pragma surface ConfigureSurface Standard fullforwardshadows addshadow
         #pragma instancing_options assumeuniformscaling procedural : ConfigureProcedural
         #pragma editor_sync_compilation
-        #include "PointGPU.hlsl"
         #pragma target 4.5
-        
+        #include "PointGPU.hlsl"
+
         struct Input
         {
             float3 worldPos;

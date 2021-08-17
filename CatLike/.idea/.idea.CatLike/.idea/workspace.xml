@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfe25b41-7f2e-416a-a63b-e6dc7424e1b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Fractal Surface GPU.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Fractal Surface GPU.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Fractal URP GPU.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Fractal URP GPU.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/FractalGPU.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Point Surface GPU.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Point Surface GPU.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Point Surface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Point Surface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Fractal.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Fractal.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CatLike/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CatLike/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.compute" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.compute" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GPUGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GPUGraph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level_19test.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level_19test.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface GPU.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface GPU.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Point/Point Surface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Basic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Basic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fractal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fractal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +57,16 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scenes/Basic.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0AB0785-3DB9-42D2-9BA8-27338FDA0F7A/56/436dd614/ComputeBuffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../WorkSpace/FallMiCopy/Copy2/FallMi/FallMi/Assets/Framework/Scripts/Network/GameFlow/BolygonGameFlowManager_Survive.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF667CDC-82BF-4A4E-911D-1DDEA9FF581D/c1/28a3e864/ComputeBuffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FrameRateCounter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scenes/Basic.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPUGraph.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scenes/Basic.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scenes/Basic.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Demo/Carlike_Learning/CatLike/Assets/Scripts/FunctionLibrary.compute" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Fractal.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/FractalGPU.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ExampleScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Shaders/FractalGPU.shader" />
@@ -65,6 +80,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GPUGraph.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.compute" />
+      <option value="$PROJECT_DIR$/Assets/Materials/Fractal Surface GPU.shader" />
+      <option value="$PROJECT_DIR$/Assets/Materials/Point Surface GPU.shader" />
+      <option value="$PROJECT_DIR$/Assets/Materials/FractalGPU.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Fractal.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1skDoIjxwOP8l5iCpdDxnpjx7C4" />
@@ -81,7 +100,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.ShaderLab" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -95,10 +114,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7120">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="7120" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -120,7 +139,9 @@
       <workItem from="1627544173691" duration="17218000" />
       <workItem from="1627629743150" duration="2477000" />
       <workItem from="1627873301267" duration="16281000" />
-      <workItem from="1627901749622" duration="59102000" />
+      <workItem from="1627901749622" duration="59962000" />
+      <workItem from="1628652382424" duration="8297000" />
+      <workItem from="1628828875288" duration="2927000" />
     </task>
     <task id="LOCAL-00001" summary="add a script">
       <created>1621407934798</created>
@@ -213,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628389610091</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="morphing functions on GPU">
+      <created>1628651503031</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628651503031</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +276,7 @@
     <MESSAGE value="Mathematical Surfaces -second part" />
     <MESSAGE value="profiler and TMP" />
     <MESSAGE value="compute shader" />
-    <option name="LAST_COMMIT_MESSAGE" value="compute shader" />
+    <MESSAGE value="morphing functions on GPU" />
+    <option name="LAST_COMMIT_MESSAGE" value="morphing functions on GPU" />
   </component>
 </project>
